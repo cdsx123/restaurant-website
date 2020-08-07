@@ -1,0 +1,169 @@
+nav{
+    display: flex;
+    top: 0px;
+    background-color: white;
+    width: 101vw;
+    height: 48px;
+    position: fixed; 
+    left: 0px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 10px black;
+    
+}
+.nav{
+    box-sizing: border-box;
+    position: relative;
+    top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav:hover{
+    padding-left: 28px;
+    padding-right: 28px;
+    background-color: black;
+    color: white;
+}
+
+
+
+#content{
+    margin: auto;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+    
+    width: 700px;
+    height: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contacth1{
+    font-size: 70px;
+    line-height: 20px;
+    position: absolute;
+    bottom: 710px;
+}
+
+form{
+    display: flex;
+    position: absolute;
+    top: 11%;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px black;
+    width: 600px;
+    height: 750px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+input{
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    width: 90%;
+    height: 8%;
+    font-size: 180%;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+button{
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    width: 50%;
+    height: 6%;
+    font-size: 180%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:active{
+    background-color: rgb(230, 230, 230);
+    
+    
+}
+textarea{
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    width: 90%;
+    height: 40%;
+    font-size: 180%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.card{
+    box-shadow: 0px 2px 10px black;
+    width: 45%;
+    height: 45%;
+    border-radius: 5px;
+    border: 2px solid grey;
+    text-align: center;
+}
+
+.menua {
+    border: 2px solid black;
+    padding: 7px 13px;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    justify-self: center;
+    font-family: arial;
+}
+
+.menua:hover {
+    background-color: black;
+    color: white;
+    
+}
+
+.menuimg{
+    height: 225px;
+    
+}
+
+#fries{
+    width: 300px;
+}
+
+.homeh1{
+    font-family: arial;
+    margin: 0px;
+    font-size: 65px;
+    align-self: flex-start;
+    justify-self: center;
+}
+.homep{
+    font-family: arial;
+    margin: 0px;
+    text-align: center;
+}
+
+.homeimg{
+    border: 2px solid black;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    width: 80%;
+    
+    height: auto;
+}
+
+
+

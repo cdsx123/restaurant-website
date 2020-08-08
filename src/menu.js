@@ -29,10 +29,10 @@ const menu = () => {
     content.style.cssText = 'width:750px; height: 850px; justify-content: space-around; \
     align-items: center; top: 53%;'
 
-    bimg.src = '../burger.jpeg'
-    fimg.src = '../fries.jpeg'
-    simg.src = '../sundae.jpeg'
-    pimg.src = '../pancake.jpeg'
+    bimg.src = '../dist/burger.jpeg'
+    fimg.src = '../dist/fries.jpeg'
+    simg.src = '../dist/sundae.jpeg'
+    pimg.src = '../dist/pancake.jpeg'
 
     bimg.classList.add('menuimg')
     fimg.classList.add('menuimg')
